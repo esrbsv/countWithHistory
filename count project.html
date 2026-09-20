@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Счетчик с историей</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+   
+
+
+<main>
+<section class="all-square">
+     <nav class="count-nav">
+        <a href="index.html" class="back-home">Главная</a>
+        <div class="dropdown">
+                <button class="project-btn">Проекты ▼</button>
+                <div class="dropdown-content">
+                    <a href="count project.html" style="color: grey;">Счётчик</a>
+                    <a href="shop.html">Магазин</a>
+                    <a href="weather.html">Погода</a>
+                    <a href="#">Менеджер задач</a>
+                    <a href="#">Трекер привычек</a>
+                </div>
+        </div>
+    </nav>
+
+    <div class="name-project">
+        <h2 >Счетчик с историей</h2>
+    </div>
+    <div class="counter-container">
+    
+        <div class="left-panel">
+            <div class="number-counter">
+                <span class="counter-display" id="counterDisplay">0</span>
+            </div>
+            <div class="all-btn">
+                <div class="change-btn">
+                    <button class="decrement-btn" id="decrementBtn">-</button>
+                    <button class="increment-btn" id="incrementBtn">+</button>
+                </div>
+                <div class="clear">
+                    <button class="reset-btn" id="reset-btn">Сброс</button>
+                </div>
+            </div>
+        </div>
+    
+        <aside class="side-panel">
+            <div class="history-container">
+                <h4 class="history-name">История</h4>
+                <div class="history-list" id="historyList"></div>
+                <button class="clear-history-btn" id="clearHistoryBtn">Очистить историю</button>
+            </div>
+    
+        </aside>
+    
+    
+    </div>
+</section>
+
+
+</main>
+
+
+<footer>
+     <p style=" text-align: center;
+    margin-top: 140px;
+    font-size: 14px;
+    color:var(--color-text);
+    ">© 2025 Егор — учебное портфолио</p>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
